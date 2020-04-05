@@ -1,0 +1,62 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  /* padding-top: 50px;
+  padding-bottom: 20px; */
+}
+
+.image-container {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width:80px;
+  height:40px;
+  text-align:center;
+}
+
+.image-container img { 
+  height:100%;
+}
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+#form {
+  max-width: 200px;
+  margin-top: 10px;
+  margin: 0 auto;
+}
+
+#jumbotron {
+  background-image: url(../../assets/img/main.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#logo {
+  width: 10%;
+  height: 10%;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#button-main {
+  background-color: rgb(254,126,69);
+  width: 200px;
+  margin-top: 10px;
+  border: none;
+}
+
+#rows {
+  text-align: center;
+}
+
+#button-in-modal {
+  background-color: rgb(254,126,69);
+  color: aliceblue;
+  width: 70px;
+  margin-top: 10px;
+  border: none;
+}

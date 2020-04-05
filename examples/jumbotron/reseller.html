@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- <link rel="icon" href="../../assets/img/favicon.ico"> -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> 
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
+
+    <title>AnyVeny - Начни Онлайн-Бизнес без Вложений</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="styles.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+    <script src="script.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162440227-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-162440227-1');
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+      (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+      m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+      (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+      ym(61535497, "init", {
+          clickmap:true,
+          trackLinks:true,
+          accurateTrackBounce:true,
+          webvisor:true
+      });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/61535497" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+
+  </head>
+
+  <body>
+
+    <!-- Logo image -->
+    <div class="image-container"><img src="../../assets/img/logo.png"/></div>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron" id="jumbotron">
+      <div class="container">
+        <h1>Создайте свой бизнес в интернете без вложений</h1>
+        <p>Более 100 предпринимателей зарабытвают из дома на AnyVeny <br>перепродавая в социальных сетях, мессенджерах и других каналах<br>товары, размещаемые поставщиками на платформе</p>
+        <div class="first">
+        <p><a onclick="smoothScroll(document.getElementById('second'))" id="button-main" class="btn btn-primary btn-lg" href="#" role="button">Начать &raquo;</a></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Marketing points -->
+    <div class="container">
+      <div class="second" id="second">
+        <div id ="rows" class="row">
+          <div class="col-md-4">
+            <img class="img-circle" src="../../assets/img/Register.png" alt="Generic placeholder image" width="140" height="140">
+            <h2>Шаг 1</h2>
+            <p>Зарегистрируйтесь и получите возможность создать свой онлайн-бизнес без вложений</p>
+          </div>
+          <div class="col-md-4">
+            <img class="img-circle" src="../../assets/img/catalogue.png" alt="Generic placeholder image" width="140" height="140">
+            <h2>Шаг 2</h2>
+            <p>Выберите подходящие товары из каталога, которые Вы бы хотели продавать</p>
+          </div>
+          <div class="col-md-4">
+            <img class="img-circle" src="../../assets/img/share.png" alt="Generic placeholder image" width="140" height="140">
+            <h2>Шаг 3</h2>
+            <p>Делитесь товарами со знакомыми в социальных сетях, мессенджерах и других каналах</p>
+          </div>
+          <div class="col-md-4">
+            <img class="img-circle" src="../../assets/img/Commission.png" alt="Generic placeholder image" width="140" height="140">
+            <h2>Шаг 4</h2>
+            <p>Нашли покупателя? - Отлично, обсудите с ним цену на товар с учетом Вашей комиссии за сделку</p>
+          </div>
+          <div class="col-md-4">
+            <img class="img-circle" src="../../assets/img/link.png" alt="Generic placeholder image" width="140" height="140">
+            <h2>Шаг 5</h2>
+            <p>Создайте ссылку на оплату и отправьте ее покупателю</p>
+          </div>
+          <div class="col-md-4">
+            <img class="img-circle" src="../../assets/img/finish.png" alt="Generic placeholder image" width="140" height="140">
+            <h2>Шаг 6</h2>
+            <p>Получите Вашу комиссию за продажу, а о доставке товара и остальных вопросах позаботится AnyVeny</p>
+          </div>
+        </div>
+      </div>
+
+    <!-- Registration Form -->
+      <div class="container">
+        <div class="starter-template">
+          <h1>Начать онлайн-бизнес теперь очень просто</h1>
+          <p class="lead">AnyVeny может стать хорошим дополнительным доходом<br>А может быть основным?</p>
+          <form action="reseller.php" method="POST">
+            <div id="form" class="form-group">
+              <input name="email" type="text" placeholder="Email" class="form-control">
+            </div>
+              <button type="submit" class="btn btn-success" id="button-main" data-toggle="modal" data-target="#exampleModal">Зарегистрироваться</button>
+          </form>
+        </div>        
+      </div>
+
+      <hr>
+      <!-- Footer -->
+      <footer>
+        <p>&copy; 2020 AnyVeny - Первая в России Social Commerce Платформа
+          <br>
+          <br>
+          Хотите разместить товары на платформе? - Напишите нам anyveny@yandex.ru
+        </p>
+      </footer>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
