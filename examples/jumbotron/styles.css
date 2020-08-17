@@ -60,3 +60,28 @@ body {
   margin-top: 10px;
   border: none;
 }
+
+.fa {
+  padding: 20px;
+  padding-top: 5px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa-vk {
+  padding-left: 0px;
+}
+
+.fa-instagram {
+  padding-left: 0px;
+}
+
+.fa-linkedin {
+  padding-left: 0px;
+}
+
+.fa-facebook {
+  padding-left: 0px;
+}
